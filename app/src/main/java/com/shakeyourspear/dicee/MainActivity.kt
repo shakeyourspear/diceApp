@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity() {
         val diceArry = intArrayOf(R.mipmap.dice1, R.mipmap.dice2, R.mipmap.dice3, R.mipmap.dice4, R.mipmap.dice5, R.mipmap.dice6)
 
         rollButton.setOnClickListener {
-            Log.d("Dicee", "This Button has been pressed!")
+            Log.d("Dice", "This Button has been pressed!")
 
             val randomNumberGenerator = Random()
 
             var number = randomNumberGenerator.nextInt(6)
 
-            Log.d("Dicee", "The Random number is: $number")
+            Log.d("Dice", "The Random number is: $number")
 
             leftDice.setImageResource(diceArry[number])
 
