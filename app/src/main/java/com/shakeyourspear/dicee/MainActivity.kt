@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
             val randomNumberGenerator = Random()
 
-            var number = randomNumberGenerator.nextInt(6)
+            var number = randomNumberGenerator.nextInt(100)
 
             Log.d("Dice", "The Random number is: $number")
 
